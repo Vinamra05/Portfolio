@@ -56,7 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={weather}
+              imgPath={weathericon}
               isBlog={false}
               title="Weather App"
               description="Built a responsive weather app that utilizes an API to display live weather information, providing real-time updates for a seamless user experience."
