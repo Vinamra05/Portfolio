@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import weather from "../../Assets/Projects/weather.png";
+import weather from "../../Assets/Projects/weathericon.png";
 import myntra from "../../Assets/Projects/myntra.png";
 import music from "../../Assets/Projects/music.png";
 import foodfrenzy from "../../Assets/Projects/foodfrenzy.png";
@@ -56,7 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={weathericon}
+              imgPath={weather}
               isBlog={false}
               title="Weather App"
               description="Built a responsive weather app that utilizes an API to display live weather information, providing real-time updates for a seamless user experience."
