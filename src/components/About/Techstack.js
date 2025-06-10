@@ -2,17 +2,25 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
+  DiPostgresql,
   DiJavascript1,
   DiReact,
   DiNodejs,
+  DiSass,
   DiMongodb,
   DiPython,
   DiGit,
   DiJava,
+  DiAws,
+  DiDocker,
+  DiDjango,
+  DiNginx,
+  DiGithub
 } from "react-icons/di";
 import {
   // SiRedis,
-  // SiFirebase,
+  SiFirebase,
+  
   // SiNextdotjs,
   // SiSolidity,
   SiMysql,
@@ -25,6 +33,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
       </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
@@ -34,6 +43,9 @@ function Techstack() {
       {/* <Col xs={4} md={2} className="tech-icons">
         <TbBrandGolang />
       </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <DiSass />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
@@ -46,15 +58,18 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPostgresql />
+      </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
-      </Col> */}
+      </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
       </Col> */}
@@ -64,6 +79,22 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDjango />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNginx />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGithub />
+      </Col>
+      
       
     </Row>
   );

@@ -9,11 +9,13 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Vinamra Sharma </span>
-            from <span className="purple"> Saharanpur, India.</span>
+            from <span className="purple">Saharanpur, India.</span>
             <br />
-            I am currently pursuing Master of Computer Applications from Institute of Engineering & Technology, Lucknow.
+            I have recently completed my Master of Computer Applications from the Institute of Engineering & Technology, Lucknow.
             <br />
-            I have completed  Bachelor of Science at Garhwal University.
+            I’m a passionate Full Stack Web Developer who enjoys building scalable, real-world applications using modern technologies.
+            <br />
+            I have also completed multiple internships and worked on diverse projects involving technologies like <span className="purple">React.js, Node.js, Express.js , MongoDB, Django, Docker and AWS</span>.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -23,10 +25,10 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Explore About new Technologies
+              <ImPointRight /> Exploring New Technologies
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Travelling & Observing New Cultures
             </li>
           </ul>
 

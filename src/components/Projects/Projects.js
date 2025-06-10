@@ -8,7 +8,8 @@ import music from "../../Assets/Projects/music.png";
 import foodfrenzy from "../../Assets/Projects/foodfrenzy.png";
 import netflix from "../../Assets/Projects/netflix.png";
 import twitter from "../../Assets/Projects/twitter.png";
-
+import devConnect from "../../Assets/Projects/devConnect.png";
+import speechify from "../../Assets/Projects/speechify.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -21,6 +22,26 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={devConnect}
+              isBlog={false}
+              title="devConnect"
+              description="devConnect is a developer-focused platform that enables users to connect, chat in real-time, andfollow each other. It features live messaging, real-time notifications, and cron jobs for scheduled email digestsand reminders. Users can upgrade their accounts via Razorpay or Stripe to unlock premium features like boostedvisibility and exclusive access."
+              ghLink="https://github.com/Vinamra05/TechTinder/"
+              demoLink="https://techtinder.live/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={speechify}
+              isBlog={false}
+              title="Speechify"
+              description="Developed a React.js web app that converts text to speech using Amazon Polly. Leveraged AWS S3 forsecure content storage and used IAM roles to manage access and policies for AWS resources."
+              ghLink="https://github.com/Vinamra05/Speechify/"
+              demoLink="https://speechifynow.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={foodfrenzy}
